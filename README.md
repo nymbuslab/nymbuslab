@@ -12,7 +12,30 @@
 
 ###
 
-<p align="left">``` Python<br>class Pabllo:<br>    def __init__(self):<br>        self.name = "Pabllo Oliveira Martins"<br>        self.position = "Desenvolvedor Júnior"<br>        self.languages = ["Python" e "Banco de dados"]<br><br>    def introduce(self):<br>        return (<br>            f"Meu nome é {self.name}.\n"<br>            f"Sou {self.position},\n"<br>            f"e atualmente estou focado em: {', '.join(self.languages)}."<br>        )<br><br><br>if __name__ == "__main__":<br>    pabllo = Pabllo()<br>    print(pabllo.introduce())<br>```</p>
+<p align="left">
+ ````python
+class Pabllo:
+    def __init__(self):
+        self.name = "Pabllo Oliveira Martins"
+        self.position = "Desenvolvedor Júnior"
+        self.languages = ["Python", "Banco de dados"]
+
+    def introduce(self):
+        return (
+            f"Meu nome é {self.name}.\n"
+            f"Sou {self.position},\n"
+            f"e atualmente estou focado em: {', '.join(self.languages)}."
+        )
+
+if __name__ == "__main__":
+    pabllo = Pabllo()
+    print(pabllo.introduce())
+```​
+```
+
+No GitHub README, o bloco de código precisa de **quebras de linha reais** no arquivo `.md` — não `<br>`. Basta editar o `README.md` diretamente com o código indentado normalmente.
+
+O restante (ícones, stats cards, GIF) está tudo correto. Quer que eu monte o README completo corrigido?
 
 ###
 
