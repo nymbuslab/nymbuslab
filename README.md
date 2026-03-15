@@ -33,11 +33,6 @@ if __name__ == "__main__":
     print(pabllo.introduce())
 ```​
 ```
-
-No GitHub README, o bloco de código precisa de **quebras de linha reais** no arquivo `.md` — não `<br>`. Basta editar o `README.md` diretamente com o código indentado normalmente.
-
-O restante (ícones, stats cards, GIF) está tudo correto. Quer que eu monte o README completo corrigido?
-
 ###
 
 <h3 align="left">🛠 Language and tools</h3>
